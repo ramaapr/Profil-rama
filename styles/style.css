@@ -1,0 +1,251 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: lightblue;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+header img {
+  border-radius: 50%;
+  margin-top: 15px;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+nav {
+  text-align: center;
+  padding: 15px;
+  background-color: lightgray;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  background-color: lightgray;
+  border-radius: 10px;
+  border: 1px solid gray;
+  max-width: 800px;
+}
+
+section h2 {
+  color: darkblue;
+}
+
+section p {
+  line-height: 1.6;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+}
+
+section li {
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px #ddd;
+}
+
+section li:hover {
+  background-color: lightblue;
+}
+
+header img {
+  border-radius: 50%;
+  margin-top: 15px;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+#project article {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#project article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#project button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#project button:hover {
+  background-color: darkblue;
+  transform: scale(1.05);
+}
+#project button:active {
+  transform: scale(0.95);
+}
+
+#skill li {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+#skill li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#kontak {
+  background-color: #f5f5f5;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+#kontak h2 {
+  margin-bottom: 15px;
+}
+
+#kontak p {
+  margin: 10px 0;
+}
+
+#kontak a {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#kontak a:hover {
+  text-decoration: underline;
+} 
+#kontak a {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background-color: lightgreen;
+} 
+#kontak button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#kontak button:hover {
+  background-color: darkblue;
+  transform: scale(1.05);
+}
+
+#project h4 {
+  margin-bottom: 10px;
+}
+
+#pesan {
+  margin-top: 15px;
+  font-weight: bold;
+  min-height: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #f5f5f5;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  header img {
+    width: 150px;
+    height: 150px;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  header p {
+    font-size: 14px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  #project article {
+    padding: 15px;
+  }
+section {
+  margin: 15px 0;
+  padding: 15px;
+}
+}
+#kontak a.whatsapp {
+  background-color: lightgreen;
+}  
+#project button {
+  margin: 5px;
+}
+#project a {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 18px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+#project a:hover {
+  background-color: gray;
+  transform: scale(1.05);
+} 
+#project a:active {
+  transform: scale(0.95);
+} 
