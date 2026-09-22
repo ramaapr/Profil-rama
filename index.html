@@ -1,10 +1,128 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Profil Rama</title>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>profil rama</title>
 </head>
+
 <body>
-  <h1>Profil Rama</h1>
-  <p>Saya sedang belajar menjadi web developer.</p>
+
+  <header>
+    <h1>
+      Profil Rama
+    </h1>
+
+    <p>Sedang belajar merelakan hal yang tak sempat dimiliki</p>
+
+    <img src="download.jpeg" alt="foto pemandangan" width="200" height="200">
+  </header>
+
+  <nav>
+    <a href="#tentang">tentang</a>
+    <a href="#skill">skill</a>
+    <a href="#project">project</a>
+    <a href="#kontak">kontak</a>
+  </nav>
+
+  <section id="tentang">
+    <h2>tentang saya</h2>
+
+    <p>
+      Saya adalah seseorang
+yang selalu mengagumimu dari jauh,
+sementara kau mungkin tak pernah tahu
+bahwa pernah ada hati yang selalu merindukanmu.
+Saya memilih diam,
+bukan karena tak ingin mengungkapkan,
+tetapi karena terkadang
+mencintai seseorang berarti
+belajar menerima bahwa
+tidak semua rasa akan sampai
+kepada pemiliknya.
+Jadi biarlah rasa ini tetap menjadi rahasia,
+tersimpan di antara malam dan kenangan.
+Jika suatu hari saya berhenti mengagumimu,
+bukan berarti rasa itu tak pernah ada—
+mungkin saya hanya sudah belajar
+untuk merelakan sesuatu
+yang sejak awal bukan milik saya.
+    </p>
+  </section>
+
+  <section id="skill">
+    <h2>Skill</h2>
+
+    <ul>
+      <li>HTML</li>
+      <li>JavaScript</li>
+      <li>Microsoft Excel</li>
+      <li>Microsoft Word</li>
+      <li>Canva</li>
+      <li>Fotografi</li>
+    </ul>
+  </section>
+
+  <section id="project">
+    <h2>Project</h2>
+
+    <article>
+      <h3>Website Profil Rama</h3>
+
+      <p>
+        Website portfolio sederhana yang dibuat menggunakan HTML, CSS,
+        dan JavaScript.
+      </p>
+      <p>Dibuat: September 2026</p>
+
+<p>Status: Sedang dikembangkan</p>
+
+      <p>Teknologi yang digunakan:</p>
+
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+      <p>Fitur yang sudah dibuat:</p>
+
+<ul>
+  <li>Navigasi halaman</li>
+  <li>Responsive design</li>
+  <li>Interaksi JavaScript</li>
+</ul>
+
+      <h4>Demo JavaScript</h4>
+
+      <button onclick="TampilkanPesan()">Tampilkan Pesan</button>
+
+      <p id="pesan"></p>
+
+      <button onclick="LihatProject()">Lihat Project</button>
+      <a href="#" target="_blank">lihat di GitHub</a>
+    </article>
+  </section>
+  
+
+  <section id="kontak">
+    <h2>Kontak</h2>
+
+    <p> Email:<a href="mailto:ramapratama2410@gmail.com">
+        ramapratama2410@gmail.com
+      </a>
+    </p>
+    <p> WhatsApp:<a href="https://wa.me/6287865445033" class="whatsapp">
+  087865445033
+</a>
+    </p>
+    <button onclick="KirimEmail()">Kirim Email</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Profil Rama</p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+
 </body>
 </html>
